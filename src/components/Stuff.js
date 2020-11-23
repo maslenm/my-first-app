@@ -3,12 +3,15 @@ import Paragraph from "./Paragraph";
 import Square from "./Square";
 import People from "./People";
 
+
 const Stuff = () => (
     <>
-    <Header />
+    <Header text="Hello, world!" />
     <Paragraph />
     <Square />
     <People />
+
+    
     </>
 );
 
