@@ -2,6 +2,7 @@ import Header from "./Header";
 import Paragraph from "./Paragraph";
 import Square from "./Square";
 import People from "./People";
+import Clicked from "./Clicked";
 
 
 const Stuff = ( { square } ) => (
@@ -13,6 +14,7 @@ const Stuff = ( { square } ) => (
     {square ? (<Square colour="red" /> ) : null }
 
     <People names={["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
+    <Clicked />
     </>
 );
 
