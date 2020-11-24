@@ -1,9 +1,11 @@
-let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
+//let namesList = { names } //["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
 
-const People = () => (
+const People = ({ names }) => (
     <ul>
-        { names.map((value, index) => (
-        <li key={ index }>{ value }</li> ))}
+        { names ? names.map((name, index) => (
+        <li key={ index }>
+            { name }
+        </li> )) : "Nothing to see here" }
     </ul>
 );
 

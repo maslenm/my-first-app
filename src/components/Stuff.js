@@ -12,11 +12,10 @@ const Stuff = () => (
     
     <Square  colour="red"/> 
     
-    <People />
+    <People names={["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
     </>
 );
 
 export default Stuff;
 
 //bgColour={bgColour}
-    
