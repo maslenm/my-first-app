@@ -1,7 +1,7 @@
-const Paragraph = ({ message }) => (
+const Paragraph = ({ children }) => (
     <p>
         { 
-            message ? message : "Hello, world."
+            children ? children : "Hello, world."
         }
     </p>
 );
