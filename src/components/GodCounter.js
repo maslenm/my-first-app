@@ -25,7 +25,7 @@ class GodCounter extends React.Component{
 
     render() {
         return (
-            <p onClick={ this.handleClick }>{ this.state.counter }</p>
+            <p>{ this.state.counter }</p>
         )
     }
 }
