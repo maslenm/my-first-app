@@ -21,7 +21,7 @@ class ToggleText extends React.Component {
 
         return (
             <section>
-            <button onClick={ this.handleClick }>Toggle</button><p>{ clicked }</p>
+                <button onClick={ this.handleClick }>Toggle</button><p>{ clicked }</p>
             </section>
         );
     }

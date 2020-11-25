@@ -4,6 +4,7 @@ import Square from "./Square";
 import People from "./People";
 import Clicked from "./Clicked";
 import ToggleText from "./ToggleText";
+import Counter from "./Counter";
 
 
 const Stuff = ( { square } ) => (
@@ -17,6 +18,7 @@ const Stuff = ( { square } ) => (
     <People names={["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
     <Clicked />
     <ToggleText />
+    <Counter max={100} />
     </>
 );
 
