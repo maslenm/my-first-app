@@ -20,6 +20,12 @@ class Clicked extends React.Component {
     }
 };
 
+
+export default Clicked;
+
+
+
+
 /* class Clicked extends React.Component {
     constructor(props) {
         super(props);
@@ -41,5 +47,3 @@ class Clicked extends React.Component {
         )
     }
 }; */
-
-export default Clicked;
