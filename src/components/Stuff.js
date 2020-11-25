@@ -17,8 +17,8 @@ const Stuff = ( { square } ) => (
 
     <People names={["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
     <Clicked />
-    <ToggleText />
-    <Counter max={100} />
+    <ToggleText initial= "Hello" alternate= "World" />
+    <Counter initial={50} max={100} />
     </>
 );
 

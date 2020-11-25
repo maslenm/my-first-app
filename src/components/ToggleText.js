@@ -17,7 +17,8 @@ class ToggleText extends React.Component {
     }
 
     render() {
-        let clicked = this.state.text ? "Hello" : "World";
+        const { initial, alternate } = this.props;
+        const clicked = this.state.text ? initial : alternate;
 
         return (
             <section>
