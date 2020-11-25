@@ -7,6 +7,8 @@ import ToggleText from "./ToggleText";
 import Counter from "./Counter";
 import GodCounter from "./GodCounter";
 import TwoCounters from "./TwoCounters";
+//import StepCounter from "./StepCounter";
+import Length from "./Length";
 
 
 const Stuff = ( { square } ) => (
@@ -21,8 +23,12 @@ const Stuff = ( { square } ) => (
     <Clicked />
     <ToggleText initial= "Hello" alternate= "World" />
     <Counter initial={50} max={100} />
+{/* 
+    <StepCounter />
+     */}
     <GodCounter />
     <TwoCounters />
+    <Length />
     </>
 );
 
