@@ -9,6 +9,7 @@ import GodCounter from "./GodCounter";
 import TwoCounters from "./TwoCounters";
 //import StepCounter from "./StepCounter";
 import Length from "./Length";
+import PasswordStrength from "./PasswordStrength";
 
 
 const Stuff = ( { square } ) => (
@@ -29,6 +30,7 @@ const Stuff = ( { square } ) => (
     <GodCounter />
     <TwoCounters />
     <Length />
+    <PasswordStrength />
     </>
 );
 
